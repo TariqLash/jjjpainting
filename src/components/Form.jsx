@@ -24,8 +24,8 @@ export const Form = () => {
   return (
     <div className=' flex justify-center pt-5 pb-10 w-full bg-teal-300'>
       <form ref={form} onSubmit={sendEmail} className='form rounded-xl w-full items-center shadow-xl bg-base-300 p-3 m-8 flex flex-col'>
-        <h1 className='text-center playfair font-bold text-6xl mb-5'>Request Your Free Quote</h1>
-
+        <h1 className='text-center playfair font-bold text-6xl mb-5'>Request A Free Quote</h1>
+        <text>Leave us a few details and we'll contact you to schedule an estimate</text>
         <input type="text" name='project_date' placeholder="Project Date" className="input w-full mt-2" />
 
         <textarea name='project_details' className="textarea textarea-bordered w-full mt-2 h-44" placeholder="Project Details"></textarea>

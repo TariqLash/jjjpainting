@@ -7,11 +7,11 @@ const About = () => {
 
             <h1 className="w-full text-center mt-8 mb-3 playfair text-5xl font-bold">About</h1>
 
-            <div className="flex flex-col md:flex-row sm:bg-red-100 md:bg-red-300 lg:bg-red-500 shadow-xl about m-3 rounded-xl md:mt-8">
-                <figure className='md:w-4/6'>
+            <div className="flex flex-col md:flex-row shadow-xl about m-3 rounded-xl md:mt-8 bg-base-100">
+                <figure className='md:w-3/5'>
                     <img className='w-full md:h-full rounded-t-xl md:rounded-tr-none md:rounded-l-xl ' src={team} alt="Three Guys" />
                 </figure>
-                <div className="card-body md:w-2/6 ">
+                <div className="card-body md:w-2/5 ">
                     <h2 className="card-title text-4xl font-bold lg:text-6xl lg:mb-3 playfair">Jacob, Josh & Jayden</h2>
                     
                     <p>We are three cousins from Regina, Saskatchewan who have always loved helping others. We love to help

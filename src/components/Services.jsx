@@ -55,7 +55,7 @@ const responsive = {
 
 const Services = () => {
     return (
-        <div className='pt-5 pb-5 min-h-screen bg-green-300'>
+        <div className='pt-5 pb-5 min-h-screen'>
             <h1 className="w-full text-center mt-8 mb-3 playfair text-5xl font-bold">Services</h1>
 
             <div className='flex flex-wrap justify-center p-3'>

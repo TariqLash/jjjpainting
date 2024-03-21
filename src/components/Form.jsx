@@ -22,7 +22,7 @@ export const Form = () => {
       );
   };
   return (
-    <div className=' flex justify-center pt-5 pb-10 w-full bg-teal-300'>
+    <div className=' flex justify-center pt-5 pb-10 w-full bg-base-100'>
       <form ref={form} onSubmit={sendEmail} className='form rounded-xl w-full items-center shadow-xl bg-base-300 p-3 m-8 flex flex-col'>
         <h1 className='text-center playfair font-bold text-6xl mb-5'>Request A Free Quote</h1>
         <text>Leave us a few details and we'll contact you to schedule an estimate</text>
@@ -35,7 +35,7 @@ export const Form = () => {
         <input type="phone" name="phone_number" placeholder="Phone Number" className="input w-full mt-2" />
         <input type="email" name='user_email' placeholder="Email Address" className="input w-full mt-2" />
 
-        <input type="submit" value="Submit" className="btn btn-lg mt-5 w-44" />
+        <input type="submit" value="Submit" className="btn btn-lg btn-outline mt-5 w-44" />
       </form>
 
     </div>

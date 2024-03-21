@@ -26,7 +26,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='/form' className="btn">Get FREE Quote</a>
+                <a href='/form' className="btn">Get Quote</a>
             </div>
         </nav>
     )

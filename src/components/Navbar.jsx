@@ -15,7 +15,7 @@ const Navbar = () => {
                         <li><a href='/contact'>Contact Us</a></li>
                     </ul>
                 </div>
-                <a href='/' className="btn btn-ghost text-xl h-full">JJJPainting</a>
+                <a href='/' className="btn btn-ghost text-xl h-full">JJJ Painting</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

@@ -12,13 +12,13 @@ const About = () => {
                     <img className='w-full md:h-full rounded-t-xl md:rounded-tr-none md:rounded-l-xl ' src={team} alt="Three Guys" />
                 </figure>
                 <div className="card-body md:w-2/5 ">
-                    <h2 className="card-title text-4xl font-bold lg:text-6xl lg:mb-3 playfair">Jacob, Josh & Jayden</h2>
+                    <h2 className="card-title text-4xl font-bold lg:text-6xl lg:mb-3 playfair">Jacob, Jackson & Jimmy</h2>
                     
                     <p>We are three cousins from Regina, Saskatchewan who have always loved helping others. We love to help
                         build & restore properties to their best state. We work hard to deliver the best experience for our
                         clients.</p>
                     <div className="card-actions justify-end">
-                        <a href='/form' className="btn btn-primary">Lets Connect</a>
+                        <a href='/form' className="btn btn-primary">Let's Connect</a>
                     </div>
                 </div>
             </div>

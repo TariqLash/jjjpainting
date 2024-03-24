@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer p-10 bg-base-300 text-base-content">
       <aside>
         <img src={logo} className='w-32' alt='JJJ Painting logo'></img>
-        <p>JJJPainting Ltd.<br />Providing reliable painting since 2020</p>
+        <p>JJJ Painting Ltd.<br />Providing reliable painting since 2020</p>
       </aside>
       <nav className='h-full flex flex-col justify-around'>
         <h6 className="footer-title">Social</h6>

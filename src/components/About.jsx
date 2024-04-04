@@ -3,11 +3,11 @@ import team from '../images/aboutPic.png'
 
 const About = () => {
     return (
-        <div className='flex flex-col items-center h-screen pt-5 pb-5'>
+        <div className='mainAbout flex flex-col items-center p-5'>
 
             <h1 className="w-full text-center mt-8 mb-3 playfair text-5xl font-bold">About</h1>
 
-            <div className="flex flex-col md:flex-row shadow-xl about m-3 rounded-xl md:mt-8 bg-base-100">
+            <div className="flex flex-col md:flex-row shadow-xl about m-3 rounded-xl md:mt-8 bg-base-100 mb-16">
                 <figure className='md:w-3/5'>
                     <img className='w-full md:h-full rounded-t-xl md:rounded-tr-none md:rounded-l-xl ' src={team} alt="Three Guys" />
                 </figure>

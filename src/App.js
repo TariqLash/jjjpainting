@@ -29,6 +29,8 @@ function App() {
               <Hero />
               <Services/>
               {/* <div className="divider ml-5 mr-5"></div> */}
+              <About/>
+
               <Form/>
               </>
             }

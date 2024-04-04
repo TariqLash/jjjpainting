@@ -22,8 +22,9 @@ export const Form = () => {
       );
   };
   return (
-    <div className=' flex justify-center pt-5 pb-10 w-full bg-base-100'>
-      <form ref={form} onSubmit={sendEmail} className='form rounded-xl w-full items-center shadow-xl bg-base-300 p-3 m-8 flex flex-col'>
+    <div className='bg-base-300'>
+    <div className='mainForm flex justify-center items-center pt-5 pb-10 w-full'>
+      <form ref={form} onSubmit={sendEmail} className='form rounded-xl w-full items-center shadow-xl bg-base-200 p-3 m-8 flex flex-col'>
         <h1 className='text-center playfair font-bold text-6xl mb-5'>Request A Free Quote</h1>
         <text>Leave us a few details and we'll contact you to schedule an estimate</text>
         <input type="text" name='project_date' placeholder="Project Date" className="input w-full mt-2" />
@@ -39,7 +40,7 @@ export const Form = () => {
       </form>
 
     </div>
-
+</div>
   );
 }
 

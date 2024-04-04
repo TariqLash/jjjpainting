@@ -15,7 +15,7 @@ const Hero = () => {
             abilities allow us to take on all painting projects, no matter the size or complexity. You
             can count on us for all of your painting needs.
           </p>
-          <button className="btn btn-primary">Get FREE Quote</button>
+          <a href='/Form' className="btn btn-">Get FREE Quote</a>
         </div>
       </div>
     </div>)

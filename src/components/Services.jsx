@@ -58,14 +58,14 @@ const Services = () => {
         <div className='main2 pt-5 pb-16 min-h-screen'>
             <h1 className="w-full text-center mt-8 mb-3 playfair text-5xl font-bold">Services</h1>
 
-            <div className='flex flex-wrap justify-center p-3'>
+            <div className='flex flex-wrap justify-center p-3 '>
                 <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Cabinetry and Doors</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div><img src={cabinDoor1} alt="Cabinets #1" className="w-full" /></div>
                             <div><img src={cabinDoor2} alt="Cabinets #2" className="w-full" /></div>
@@ -82,7 +82,7 @@ const Services = () => {
                             <h2 className="card-title text-3xl font-bold playfair">Exterior Commercial</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div><img src={extCom1} alt="" className="w-full" /></div>
                             <div><img src={extCom2} alt="" className="w-full" /></div>
@@ -97,7 +97,7 @@ const Services = () => {
                             <h2 className="card-title text-3xl font-bold playfair">Exterior Residential</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div className='carousel'><img src={extRes1} alt="" className="w-full" /></div>
                             <div className='carousel'><img src={extRes2} alt="" className="w-full" /></div>
@@ -117,7 +117,7 @@ const Services = () => {
                             <h2 className="card-title text-3xl font-bold playfair">Fence & Deck Staining</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div className='carousel'><img src={fenceDeck1} alt="" className="w-full" /></div>
                             <div className='carousel'><img src={fenceDeck2} alt="" className="w-full" /></div>
@@ -134,7 +134,7 @@ const Services = () => {
                             <h2 className="card-title text-3xl font-bold playfair">Industrial</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div className='carousel'><img src={industrial1} alt="" className="w-full" /></div>
                             <div className='carousel'><img src={industrial2} alt="" className="w-full" /></div>
@@ -150,7 +150,7 @@ const Services = () => {
                             <h2 className="card-title text-3xl font-bold playfair">Interior Commercial</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div className='carousel'><img src={intCom1} alt="" className="w-full" /></div>
                             <div className='carousel'><img src={intCom2} alt="" className="w-full" /></div>
@@ -168,7 +168,7 @@ const Services = () => {
                             <h2 className="card-title text-3xl font-bold playfair">Interior Residential</h2>
                         </div>
                     </div>
-                    <figure>
+                    <figure className='z-0'>
                         <Carousel responsive={responsive} className="flex w-full h-full">
                             <div className='carousel'><img src={intRes1} alt="" className="w-full" /></div>
                             <div className='carousel'><img src={intRes2} alt="" className="w-full" /></div>

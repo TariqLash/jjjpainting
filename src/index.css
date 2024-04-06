@@ -29,10 +29,6 @@ code {
     max-height: 28rem;
 }
 
-.textarea{
-  font-size: 1rem;
-}
-
 details{
   z-index: 1;
 }
@@ -42,44 +38,51 @@ details{
 }
 
 .about{
-  max-width: 85rem;
+  max-width: 65rem;
 }
 
 .form{
   max-width: 65rem;
-  height: 42rem;
+  height: 50rem;
 }
 
 .carousel{
   height: 24rem;
   width: 100%;
 }
-.mainForm{
-  background-color: #fcbf49;
-}
 
 .main2{
-  background-color:#d62828;
-}
-
-.navbar{
-  background-color: floralwhite;
+  background-color: #219ebc;
 }
 
 
 .mainAbout{
-  background-color: #f77f00;
+  background-color: #023047;
 }
 
-.heroBtn{
-  background-color: BISQUE;
-}
 
-.footer{
-  background-color: #eae2b7;
+.mainForm{
+  background-color: #ffb703;
 }
 
 .contact{
-  background-color: #eae2b7;
+  background-color: #219ebc;
+}
 
+.heroBtn{
+  background-color: #8ecae6;
+  border: 0px;
+}
+
+.navbar{
+  background-color: snow;
+  z-index: 1000;
+}
+
+.footer{
+  background-color: #fb8500;
+}
+
+.navBtn{
+  background-color: #8ecae6;
 }

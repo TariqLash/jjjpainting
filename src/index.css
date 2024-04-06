@@ -69,10 +69,11 @@ details{
   background-color: #219ebc;
 }
 
-.heroBtn{
+.btn-blu{
   background-color: #8ecae6;
   border: 0px;
 }
+
 
 .navbar{
   background-color: snow;
@@ -81,8 +82,4 @@ details{
 
 .footer{
   background-color: #fb8500;
-}
-
-.navBtn{
-  background-color: #8ecae6;
 }

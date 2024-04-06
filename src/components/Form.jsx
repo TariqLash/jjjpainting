@@ -23,7 +23,7 @@ export const Form = () => {
   };
   return (
     <div className='bg-base-300'>
-    <div className='mainForm flex justify-center items-center pt-5 pb-10 w-full'>
+    <div className='mainForm flex justify-center items-center pt-5 pb-16 w-full'>
       <form ref={form} onSubmit={sendEmail} className='form rounded-xl w-full justify-around items-center shadow-xl bg-base-200 p-8 m-8 flex flex-col '>
         <h1 className='text-center playfair font-bold text-6xl'>Request A Free Quote</h1>
         <text>Leave us a few details and we'll contact you to schedule an estimate</text>

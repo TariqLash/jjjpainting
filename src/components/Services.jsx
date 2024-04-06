@@ -59,7 +59,7 @@ const Services = () => {
             <h1 className="w-full text-center mt-8 mb-3 playfair text-5xl font-bold">Services</h1>
 
             <div className='flex flex-wrap justify-center p-3 '>
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Cabinetry and Doors</h2>
@@ -76,7 +76,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Exterior Commercial</h2>
@@ -91,7 +91,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Exterior Residential</h2>
@@ -111,7 +111,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Fence & Deck Staining</h2>
@@ -128,7 +128,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Industrial</h2>
@@ -144,7 +144,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Interior Commercial</h2>
@@ -162,7 +162,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3 max-w-">
+                <div className="card card-compact w-50 bg-base-100 shadow-xl m-3">
                     <div className="card-body">
                         <div className="card-actions justify-between items-center">
                             <h2 className="card-title text-3xl font-bold playfair">Interior Residential</h2>

@@ -1,24 +1,28 @@
 import React from 'react'
+import heroImg from "../images/heroImg.jpg"
 
 const Hero = () => {
   return (
-    <div className="hero h-screen">
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-2xl mb-32">
-          <h1 className="mb-8 text-5xl font-extrabold playfair">At Home or at the Cabin</h1>
-          <h3 className='mb-12 font-bold'>Quality Painters for all your painting needs</h3>
-          <p className="mb-5 w-full font-semibold pb-5">JJJ Painting strives to deliver the highest-end results to our customers.
-            We are meticulous perfectionists who do the job right the first time, while only using the
-            top of the line products. With over 500 painting projects completed, the JJJ Painting team
-            has developed into the premier quality painters in the Regina area. Our array of skills &
-            abilities allow us to take on all painting projects, no matter the size or complexity. You
-            can count on us for all of your painting needs.
-          </p>
-          <a href='/Form' className="btn btn-blu">Get FREE Quote</a>
+    <div className='flex justify-center'>
+      <div className='h-screen flex items-center justify-between mx-8 max-w-screen-xl flex-col-reverse lg:flex-row
+        '>
+        <div className='flex-col bg-red-100 lg:bg-transparent lg:w-3/5 space-y-5 mr-16'>
+          <div>
+            <h1 className='text-6xl text-primary font-bold'>Leave the Painting to Us,</h1>
+            <h1 className='text-6xl text-primary font-bold'>and Focus on What Matters Most!</h1>
+          </div>
+          <h1 className='text-lg text-justify'>With over 500 successful projects, our expert painters use top-quality materials and proven techniques to ensure flawless results on every job.</h1>
+          <button>get your free quote now!</button>
+          <ul>
+            <li>Flawless Finishes</li>
+            <li>Timely Completion</li>
+            <li>Exceptional Quality</li>
+          </ul>
         </div>
+        <img src={heroImg} alt="" width={500} height={500} className='rotate-3 rounded-xl drop-shadow-lg'/>
       </div>
-    </div>)
+    </div>
+  )
 }
 
 export default Hero

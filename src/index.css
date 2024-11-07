@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -46,40 +50,14 @@ details{
   height: 45rem;
 }
 
-.carousel{
-  height: 24rem;
-  width: 100%;
+.zoom-img {
+  overflow: hidden;
 }
 
-.main2{
-  background-color: #219ebc;
+.zoom-img img {
+  transition: all .3s ease;
 }
 
-
-.mainAbout{
-  background-color: #023047;
-}
-
-
-.mainForm{
-  background-color: #ffb703;
-}
-
-.contact{
-  background-color: #219ebc;
-}
-
-.btn-blu{
-  background-color: #8ecae6;
-  border: 0px;
-}
-
-
-.navbar{
-  background-color: snow;
-  z-index: 1000;
-}
-
-.footer{
-  background-color: #fb8500;
+.zoom-img img:hover {
+  transform: scale(1.1);
 }
